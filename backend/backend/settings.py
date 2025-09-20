@@ -75,6 +75,7 @@ WSGI_APPLICATION = "backend.wsgi.application"
 
 # -------------------------------
 # Database
+#postgresql://fullstack_expense_database_user:xCkh4TDQI2UrTuT7oBeGv9ILoqMFsXPO@dpg-d37cnomr433s73el1srg-a/fullstack_expense_database
 # -------------------------------
 DATABASES = {
     'default': dj_database_url.config(
