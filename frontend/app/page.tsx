@@ -224,7 +224,7 @@ return (
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">Ajout d'une transaction</h3>
+<h3 className="font-bold text-lg">Ajout d&apos;une transaction</h3>
        <div className="flex flex-col gap-4 mt-4">
            <div className=" flex flex-col gap-2">
                <label className="label">Texte</label>
