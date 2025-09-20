@@ -14,9 +14,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qgdr$hdha%unl%s27g9za2#(2a+t_6rn601=qfdjk3-4i-2xz1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["fullstack-expense.onrender.com"]
 
 
 # Application definition
@@ -45,6 +45,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS  = [
     'http://localhost:3000',
+    'fullstack-expense.onrender.com',
 ]
 ROOT_URLCONF = 'backend.urls'
 
