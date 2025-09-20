@@ -26,8 +26,7 @@ ALLOWED_HOSTS = os.environ.get(
 # -------------------------------
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    'https://fullstack-expense-drab.vercel.app/',
-    "https://fullstack-expense-od25.vercel.app",  # frontend déployé sur Vercel
+    'https://fullstack-expense-drab.vercel.app',
 ]
 
 # -------------------------------
