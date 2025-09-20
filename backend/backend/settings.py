@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get("DJANGO_DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = os.environ.get(
-    "ALLOWED_HOSTS", "fullstack-expense.onrender.com"
+    "ALLOWED_HOSTS", "fullstack-expense-1.onrender.com"
 ).split(",")
 
 # -------------------------------
@@ -26,7 +26,8 @@ ALLOWED_HOSTS = os.environ.get(
 # -------------------------------
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://fullstack-expense.onrender.com",
+    'https://fullstack-expense-drab.vercel.app/',
+    "https://fullstack-expense-od25.vercel.app",  # frontend déployé sur Vercel
 ]
 
 # -------------------------------
